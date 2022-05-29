@@ -1,0 +1,79 @@
+.app__body-heading {
+    margin-top: 5rem;
+    display: flex;
+}
+
+.shows {
+    padding-left: 4rem;
+    width: 90%;
+    float: left;
+
+}
+
+.view {
+    width: 20%;
+    float: right;
+    margin-top: 1rem;
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+}
+
+.shows hr {
+    margin-top: 0.5rem;
+    width: 48px;
+    height: 3px;
+    margin-left: 0rem;
+    background: #0259EB;
+    border-radius: 16px;
+}
+
+.body-cards {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 250px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px; 
+    box-shadow: 6px -6px #301A68
+}
+
+.b1 :active{
+    color: 'secondary';
+}
+.b2 :active{
+    background-color: 'secondary';
+}
+
+.app__review{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.app__review-card{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.review{
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+    width: 330px;
+    border: 2px solid #E5AF56;
+    border-radius: 8px;
+    box-shadow: 8px 0 0 0 #5293E8,
+                0 -8px 0 0 #276C73;
+
+}
+
+
+.review-header{
+    display: flex;
+    align-items: center;
+}

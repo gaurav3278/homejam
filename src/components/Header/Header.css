@@ -1,0 +1,21 @@
+.app__header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.app__header-logo{
+    margin-left: 4rem;
+    width: 50%;
+    float: left;
+}
+
+.app__header-icons{
+    width: 40%;
+    text-align: end;
+    float: right;
+    justify-content: space-between;
+}
+
+.app__header-icons SearchTwoToneIcon{
+    margin-top: 2rem;
+}
