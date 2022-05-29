@@ -44,8 +44,13 @@ const Body = () => {
           fontFamily: 'Nunito',
           fontStyle: 'normal',
           fontWeight: 600,
-          fontSize: '16px', color: '#E5C558'
-        }} className='view'>View All</div>
+          fontSize: '16px',
+          marginTop:'-2.5rem'
+        }} className='view'>
+          <Button sx={{color:'#E5C558'}}>
+            View All
+          </Button>
+        </div>
       </div>
       <div className='body-cards'>
         <div className='card'>
@@ -173,12 +178,15 @@ const Body = () => {
               fontFamily: 'Nunito',
               fontStyle: 'normal',
               fontWeight: 600,
-              fontSize: '16px', color: 'rgba(255,255,255,0.5)', marginRight:'2rem'
+              fontSize: '16px', color: 'rgba(255,255,255,0.5)', marginRight: '0.5rem'
             }}>/12</div>
-            <br />
-            <ArrowBack style={{ color: '#FFFFFF', opacity: '0.6', width:'18.75px'}} />
-            <div style={{width:'10px'}}></div>
-            <ArrowForwardIcon style={{ color: '#FFFFFF', opacity: '0.6',width:'18.75px' }} />
+            <Button>
+              <ArrowBack style={{ color: '#FFFFFF', opacity: '0.6', width: '18.75px' }} />
+            </Button>
+            <Button>
+              <ArrowForwardIcon style={{ color: '#FFFFFF', opacity: '0.6', width: '18.75px' }} />
+            </Button>
+
           </div>
         </div>
       </div>
@@ -211,12 +219,12 @@ const Body = () => {
             <CardHeader
               style={{ color: 'rgba(255,255,255, 1' }}
               avatar={
-                <Avatar src={images.Hellen} aria-label="Hellen"></Avatar>
+                <Avatar src={images.Isaac} aria-label="Hellen"></Avatar>
               }
-              title="Hellen Jummy"
+              title="Isaac Oluwatemilorun"
               subheader={
                 <Typography variant='body' color='#E5C558' fontFamily='Rubik' display='flex' fontSize='11px' alignItems='center'>
-                  <Avatar src={images.us} aria-label="us" sx={{ width: 20, height: 20 }}
+                  <Avatar src={images.it} aria-label="us" sx={{ width: 20, height: 20 }}
                   ></Avatar>
                   PALO ALTO, CA
                 </Typography>
@@ -234,7 +242,7 @@ const Body = () => {
             <CardHeader
               style={{ color: 'rgba(255,255,255, 1' }}
               avatar={
-                <Avatar src={images.Hellen} aria-label="Hellen"></Avatar>
+                <Avatar src={images.Hellen2} aria-label="Hellen"></Avatar>
               }
               title="Hellen Jummy"
               subheader={
@@ -253,7 +261,7 @@ const Body = () => {
           </Card>
         </div>
       </div>
-    </div>
+    </div >
   )
 }
 

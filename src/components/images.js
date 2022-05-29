@@ -16,6 +16,7 @@ import Folk from '../assets/Folk.png'
 import Bollywood from '../assets/Bollywood.png'
 import Border from '../assets/Border.png'
 import us from '../assets/🇺🇸.png'
+import it from '../assets/🇮🇹.png'
 
 export default{
     Andrea,
@@ -34,6 +35,7 @@ export default{
     Default,
     Element,
     us,
+    it,
     Border,
     Content
 };

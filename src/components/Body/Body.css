@@ -67,11 +67,8 @@
     width: 330px;
     border: 2px solid #E5AF56;
     border-radius: 8px;
-    box-shadow: 8px 0 0 0 #5293E8,
-                0 -8px 0 0 #276C73;
-
+    box-shadow: 8px -8px 0 0 #276C73;
 }
-
 
 .review-header{
     display: flex;
