@@ -15,7 +15,6 @@ function App() {
         <Hero />
       </div>
       <Body />
-      {/* <Review /> */}
     </div>
   );
 }
