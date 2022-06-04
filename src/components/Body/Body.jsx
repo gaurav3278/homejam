@@ -11,7 +11,6 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { ArrowBack } from '@material-ui/icons';
 import BookmarkIcon from '@mui/icons-material/Bookmark';
 import './Body.css'
-import { width } from '@mui/system';
 
 const Body = () => {
   const [isColor, setIsColor] = useState(false)
